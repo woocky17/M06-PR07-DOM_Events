@@ -1,0 +1,19 @@
+{
+    "manifest_version": 3,
+    "name": "DOM Modifier",
+    "version": "1.0",
+    "description": "Modifica el DOM de Facebook",
+    "permissions": [
+        "scripting",
+        "activeTab"
+    ],
+    "host_permissions": [
+        "https://es-es.facebook.com/*"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    }
+}
