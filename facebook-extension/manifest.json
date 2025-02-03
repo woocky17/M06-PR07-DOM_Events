@@ -11,9 +11,9 @@
         "https://es-es.facebook.com/*"
     ],
     "background": {
-        "service_worker": "background.js"
+        "service_worker": "popup.js"
     },
     "action": {
-        "default_popup": "popup.html"
+        "default_popup": "inicio.html"
     }
 }
