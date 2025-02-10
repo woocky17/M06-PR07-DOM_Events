@@ -2,16 +2,16 @@
     "manifest_version": 3,
     "name": "DOM Modifier",
     "version": "1.0",
-    "description": "Modifica el DOM de Facebook",
+    "description": "Modifica el DOM de Amazon",
     "permissions": [
         "scripting",
         "activeTab"
     ],
     "host_permissions": [
-        "https://es-es.facebook.com/*"
+        "https://www.amazon.es/gp/bestsellers/electronics/"
     ],
     "js": {
-        "service_worker": "facebook.js"
+        "service_worker": "amazon.js"
     },
     "action": {
         "default_popup": "index.html"
