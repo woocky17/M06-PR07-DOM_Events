@@ -1,6 +1,6 @@
 {
     "manifest_version": 3,
-    "name": "DOM Modifier",
+    "name": "DOM Modifier Facebook",
     "version": "1.0",
     "description": "Modifica el DOM de Facebook",
     "permissions": [
